@@ -33,3 +33,18 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+@media screen and (min-width: 320px) {
+  .containerSlider {
+    gap: 10px;
+  }
+  .argCampeon {
+    width: 150px;
+  }
+  .plus {
+    font-size: 14px;
+  }
+  .minus {
+    font-size: 14px;
+  }
+}

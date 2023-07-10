@@ -18,13 +18,15 @@ const Slider = () => {
     setImg(img == cantidadImgs - 1 ? 0 : img + 1)
   }
 
-  
+  const backImg = () => {
+    setImg(img == 0 ? cantidadImgs -1 : img - 1)
+  }
 
   return(
     <div className='containerSlider'>
       <h1 className='title'>Carrusel</h1>
-      <button className='minus'> - </button>
-        <img src={IMAGENES[img]} alt="Carousel" />
+      <button className='minus' onClick={backImg}> - </button>
+        <img className='argCampeon' src={IMAGENES[img]} alt="Carousel" />
       <button className='plus' onClick={nextImg}> + </button>
     </div>
   )
