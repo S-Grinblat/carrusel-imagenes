@@ -6,3 +6,30 @@
 body {
   background-color: #888;
 }
+.containerSlider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  position: absolute;
+  top: 20%;
+  color: #000000;
+}
+.plus {
+  background-color: #0bc3e8;
+  border: 1px solid #fff;
+  color: #ffff00;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.minus {
+  background-color: #0bc3e8;
+  border: 1px solid #fff;
+  color: #ffff00;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
