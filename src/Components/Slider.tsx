@@ -12,9 +12,13 @@ const Slider = () => {
 
   const [img, setImg] = useState(1)
 
+  
+
+  
+
   return(
     <div className='containerSlider'>
-      <h1>Carrusel</h1>
+      <h1 className='title'>Carrusel</h1>
       <button className='minus'> - </button>
         <img src={IMAGENES[img]} alt="Carousel" />
       <button className='plus'> + </button>
