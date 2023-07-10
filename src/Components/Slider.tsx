@@ -26,7 +26,7 @@ const Slider = () => {
     <div className='containerSlider'>
       <h1 className='title'>Carrusel</h1>
       <button className='minus' onClick={backImg}> - </button>
-        <img className='argCampeon' src={IMAGENES[img]} alt="Carousel" />
+        <img className='argCampeon' src={IMAGENES[img]} alt="Carrussel" />
       <button className='plus' onClick={nextImg}> + </button>
     </div>
   )

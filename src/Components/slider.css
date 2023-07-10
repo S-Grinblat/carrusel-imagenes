@@ -12,6 +12,9 @@ body {
   align-items: center;
   gap: 20px;
 }
+.argCampeon {
+  width: 290px;
+}
 .title {
   position: absolute;
   top: 20%;
@@ -39,12 +42,12 @@ body {
     gap: 10px;
   }
   .argCampeon {
-    width: 150px;
+    width: 120px;
   }
   .plus {
-    font-size: 14px;
+    font-size: 12px;
   }
   .minus {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
