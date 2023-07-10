@@ -1,8 +1,13 @@
-
+import './slider.css'
 
 const Slider = () => {
   return(
-    <h1>Carrusel</h1>
+    <div className='containerSlider'>
+      <h1>Carrusel</h1>
+      <button className='minus'> - </button>
+        
+      <button className='plus'> + </button>
+    </div>
   )
 }
 
