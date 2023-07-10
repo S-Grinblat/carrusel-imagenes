@@ -1,11 +1,10 @@
-
 import './App.css'
-
+import { Slider } from './Components/Slider'
 function App() {
 
   return (
     <>
-      <h1>Hola</h1>
+      <Slider />
     </>
   )
 }
